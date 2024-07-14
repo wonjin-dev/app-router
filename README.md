@@ -8,12 +8,15 @@
   - [x] SSR
   - [x] define routes
   - [x] `layout.tsx`
+  - [x] route groups
 - [x] RSC
 
 ### vs Next 12 (Page Router)
 
 - `app/*/page.tsx`를 통해 route를 정의한다.
   - pathparam을 기준으로 폴더를 생성해서 각각의 폴더에 page.tsx를 만들어줘야한다.
+  - 폴더명을 괄호로 감싸서 route group 기능을 사용할 수 있다.
+    - 별도의 url을 만들지 않는다.
 - 페이지 라우터에서는 HTTP status로 파일명으로 생성하면 되었었는데, 새롭게 맵핑된 이름으로 페이지를 만들어줘야 한다 ㅡㅡ
   - `404.tsx` &rarr; `not-found.tsx`
 - app router에서는 기본적으로 모두 SSR을 진행한다.
