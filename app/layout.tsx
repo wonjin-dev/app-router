@@ -5,7 +5,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-	title: 'Next14',
+	title: { template: '%s | Next 14', default: 'Next 14' },
 };
 
 const GlobalLayout = ({

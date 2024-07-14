@@ -1,4 +1,8 @@
-import type { NextPage } from 'next';
+import type { Metadata, NextPage } from 'next';
+
+export const metadata: Metadata = {
+	title: 'Home',
+};
 
 const HomePage: NextPage = () => {
 	return (

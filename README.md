@@ -9,6 +9,7 @@
   - [x] define routes
   - [x] `layout.tsx`
   - [x] route groups
+  - [x] meta data
 - [x] RSC
 
 ### vs Next 12 (Page Router)
@@ -26,4 +27,9 @@
 - 별도의 `layout.tsx` 파일이 없으면 root의 layout을 무조건 통하게 된다.
   - page.tsx처럼 패스 파람 기준으로 별도의 layout.tsx를 만들어 줄 수 있다.
     - 단, 대체가 아닌 네스팅 되어 중첩으로 렌더링된다.
-    - 협업시 계층에 대한 컨벤션 정의가 매우 어려울것 같다.
+      - **_metadata는 중첩이 아닌 병합된다._**
+      - 협업시 계층에 대한 컨벤션 정의가 매우 어려울것 같다.
+
+## TODO
+
+- [ ] 공식 문서에서 Metadata 객체가 제공하는 다양한 옵션들 확인하기
