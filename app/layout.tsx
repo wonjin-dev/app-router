@@ -8,14 +8,15 @@ export const metadata: Metadata = {
 	title: 'Next14',
 };
 
-export default function RootLayout({
+const GlobalLayout = ({
 	children,
 }: Readonly<{
 	children: React.ReactNode;
-}>) {
+}>) => {
 	return (
 		<html lang='ko'>
 			<body className={inter.className}>{children}</body>
 		</html>
 	);
-}
+};
+export default GlobalLayout;
