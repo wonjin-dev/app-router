@@ -1,3 +1,4 @@
+import Container from '@/components/Container';
 import type { Metadata, NextPage } from 'next';
 
 export const metadata: Metadata = {
@@ -5,11 +6,7 @@ export const metadata: Metadata = {
 };
 
 const HomePage: NextPage = () => {
-	return (
-		<main>
-			<h1>Hello, World</h1>
-		</main>
-	);
+	return <Container />;
 };
 
 export default HomePage;
