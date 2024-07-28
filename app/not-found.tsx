@@ -1,4 +1,6 @@
-const Custom404Page = () => {
+import type { NextPage } from 'next';
+
+const Custom404Page: NextPage = () => {
 	return <main>404</main>;
 };
 

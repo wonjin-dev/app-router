@@ -19,4 +19,5 @@ const GlobalLayout = ({
 		</html>
 	);
 };
+
 export default GlobalLayout;
