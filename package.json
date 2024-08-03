@@ -1,5 +1,5 @@
 {
-	"name": "next14",
+	"name": "explore-app-router",
 	"private": false,
 	"scripts": {
 		"dev": "next dev",

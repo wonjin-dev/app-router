@@ -1,18 +1,15 @@
-# Next14
+# Explore App-router
 
 ## 학습목표
 
-- [ ] Next14
-- [ ] App Router 출현배경
 - [x] vs Page Router
   - [x] SSR
   - [x] define routes
   - [x] `layout.tsx`
   - [x] route groups
   - [x] meta data
-- [x] RSC
 
-### vs Next 12 (Page Router)
+### vs Page Router
 
 - `app/*/page.tsx`를 통해 route를 정의한다.
   - pathparam을 기준으로 폴더를 생성해서 각각의 폴더에 page.tsx를 만들어줘야한다.
@@ -35,7 +32,4 @@
 - `loading.tsx`를 통해 스트리밍에 대한 로딩을 처리할 수 있다.
 - 별도의 에러바운더리 없이 `error.tsx`를 통해 스트리밍에 대한 에러처리를 할 수 있다.
   - 단, `use client`와 함께 사용해야한다.
-
-## TODO
-
-- [ ] 공식 문서에서 Metadata 객체가 제공하는 다양한 옵션들 확인하기
+- `generateMetadata`함수를 통해 동적으로 metadata를 생성할 수 있다.
